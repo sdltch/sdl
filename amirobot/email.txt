@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>${ENV, var="JOB_NAME"}-第${BUILD_NUMBER}次构建日志</title>
+</head>
+
+<body leftmargin="8" marginwidth="0" topmargin="8" marginheight="4"
+    offset="0">
+    <h3>以下是Jenkins自动发送的邮件，请勿回复！</h3>
+    <div>
+    <table width="95%" cellpadding="0" cellspacing="0"
+        style="font-size: 11pt; font-family: Tahoma, Arial, Helvetica, sans-serif">
+        <tr>
+            <th><br />
+                <h2>构建信息</h2>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>项目名称 ： ${PROJECT_NAME}</li><br />
+                    <li>系统的测试报告 ： <a href="${PROJECT_URL}${BUILD_NUMBER}/allure">${PROJECT_URL}${BUILD_NUMBER}/allure</a></li><br />
+                    <li>触发原因： ${CAUSE}</li><br />
+                    <li>项目  Url ： <a href="${PROJECT_URL}">${PROJECT_URL}</a></li><br />
+                </ul>
+            </td>
+        </tr>
+    </table>
+    </div>
+    <div>
+    <table>
+        <tr>
+            <th><br />
+            <h2>测试报告</h2>
+            </th>
+        </tr>
+
+        <tr>
+            <td>               <div>${FILE,path="/root/.jenkins/workspace/amisrobot/linuxreport/linuxreport.html"}</div>
+            </td>
+        </tr>
+
+    </table>
+    </div>
+
+  </body>
+</html>
+
+import org.apache.commons.codec.binary.Base64;
+import java.io.ByteArrayOutputStream;
+import java.security.Key;
+import java.security.KeyFactory;
+import java.security.KeyPair;
+import java.security.KeyPairGenerator;
+import java.security.PrivateKey;
+import java.security.PublicKey;
+import java.security.Signature;
+import java.security.interfaces.RSAPrivateKey;
+import java.security.interfaces.RSAPublicKey;
+import java.security.spec.PKCS8EncodedKeySpec;
+import java.security.spec.X509EncodedKeySpec;
+import java.util.HashMap;
+import java.util.Map;
+import javax.crypto.Cipher;
+//获取公钥
+String RSA_PUB_KEY="${getRsaPublicKeys}";
+String KEY_ALGORITHM = "RSA";
+String SIGNATURE_ALGORITHM = "MD5withRSA";
+int MAX_ENCRYPT_BLOCK = 117;
+int MAX_DECRYPT_BLOCK = 128;
+
+public static byte[] decryptByPublicKey(byte[] encryptedData, String publicKey)
+            throws Exception {
+        byte[] keyBytes = Base64.decodeBase64(publicKey);
+        X509EncodedKeySpec x509KeySpec = new X509EncodedKeySpec(keyBytes);
+        KeyFactory keyFactory = KeyFactory.getInstance(KEY_ALGORITHM);
+        Key publicK = keyFactory.generatePublic(x509KeySpec);
+        Cipher cipher = Cipher.getInstance(keyFactory.getAlgorithm());
+        cipher.init(Cipher.DECRYPT_MODE, publicK);
+        int inputLen = encryptedData.length;
+        ByteArrayOutputStream out = new ByteArrayOutputStream();
+        int offSet = 0;
+        byte[] cache;
+        int i = 0;
+        // 对数据分段解密
+        while (inputLen - offSet > 0) {
+            if (inputLen - offSet > MAX_DECRYPT_BLOCK) {
+                cache = cipher.doFinal(encryptedData, offSet, MAX_DECRYPT_BLOCK);
+            } else {
+                cache = cipher.doFinal(encryptedData, offSet, inputLen - offSet);
+            }
+            out.write(cache, 0, cache.length);
+            i++;
+            offSet = i * MAX_DECRYPT_BLOCK;
+        }
+        byte[] decryptedData = out.toByteArray();
+        out.close();
+        return decryptedData;
+    }
+
+    public static byte[] encryptByPublicKey(byte[] data, String publicKey)
+            throws Exception {
+        byte[] keyBytes = Base64.decodeBase64(publicKey);
+        X509EncodedKeySpec x509KeySpec = new X509EncodedKeySpec(keyBytes);
+        KeyFactory keyFactory = KeyFactory.getInstance(KEY_ALGORITHM);
+        Key publicK = keyFactory.generatePublic(x509KeySpec);
+        // 对数据加密
+        Cipher cipher = Cipher.getInstance(keyFactory.getAlgorithm());
+        cipher.init(Cipher.ENCRYPT_MODE, publicK);
+        int inputLen = data.length;
+        ByteArrayOutputStream out = new ByteArrayOutputStream();
+        int offSet = 0;
+        byte[] cache;
+        int i = 0;
+        // 对数据分段加密
+        while (inputLen - offSet > 0) {
+            if (inputLen - offSet > MAX_ENCRYPT_BLOCK) {
+                cache = cipher.doFinal(data, offSet, MAX_ENCRYPT_BLOCK);
+            } else {
+                cache = cipher.doFinal(data, offSet, inputLen - offSet);
+            }
+            out.write(cache, 0, cache.length);
+            i++;
+            offSet = i * MAX_ENCRYPT_BLOCK;
+        }
+        byte[] encryptedData = out.toByteArray();
+        out.close();
+        return encryptedData;
+    }
+    //需要加密的用户密码
+   //String str = "idNum=633335199606143151&name=蔺四十&phone=17610010005";
+   //String str = "${password}";
+   String str = "123456";
+String result ="";
+try {
+    result = Base64.encodeBase64String(encryptByPublicKey(str.getBytes(), RSA_PUB_KEY));
+    System.out.println(result);
+} catch (Exception e) {
+    // TODO Auto-generated catch block
+    e.printStackTrace();
+}
+
+print(result);
+//调用sign获取加密后的密码
+vars.put("sign",result);
+return result;
