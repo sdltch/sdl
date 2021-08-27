@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name = "wo zij ">
+    <test name = "dsdf ">
+        <classes>
+            <class name = "com.test.testngexdome.TestMethendDome">
+                <methed>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                </methed>
+
+            </class>
+
+        </classes>
+    </test>
+    <listeners>
+        <lostemer class-name="com.test.testngexdome.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>
