@@ -1,0 +1,126 @@
+Tue, 12 Oct 2021 13:37:10-common.record_log-unit_test.py-[line:49]-INFO-[日志信息]: 打开浏览器:chrome
+Tue, 12 Oct 2021 13:37:28-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Tue, 12 Oct 2021 13:37:28-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Tue, 12 Oct 2021 13:37:28-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:****
+Tue, 12 Oct 2021 13:37:58-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Tue, 12 Oct 2021 13:37:59-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据****失败:Message: 
+
+Tue, 12 Oct 2021 13:38:01-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Tue, 12 Oct 2021 13:38:01-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Tue, 12 Oct 2021 13:38:01-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:****
+Tue, 12 Oct 2021 13:38:32-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Tue, 12 Oct 2021 13:38:32-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据****失败:Message: 
+
+Tue, 12 Oct 2021 13:38:35-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Tue, 12 Oct 2021 13:38:35-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Tue, 12 Oct 2021 13:38:35-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:****
+Tue, 12 Oct 2021 13:39:05-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Tue, 12 Oct 2021 13:39:06-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据****失败:Message: 
+
+Tue, 12 Oct 2021 13:39:08-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Tue, 12 Oct 2021 13:39:08-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Tue, 12 Oct 2021 13:39:08-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:****
+Tue, 12 Oct 2021 13:39:38-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Tue, 12 Oct 2021 13:39:39-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据****失败:Message: 
+
+Tue, 12 Oct 2021 13:39:41-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Tue, 12 Oct 2021 13:39:41-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Tue, 12 Oct 2021 13:39:41-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:****
+Tue, 12 Oct 2021 13:40:11-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Tue, 12 Oct 2021 13:40:12-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据****失败:Message: 
+
+Tue, 12 Oct 2021 13:40:14-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Tue, 12 Oct 2021 13:40:14-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Tue, 12 Oct 2021 13:40:14-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:****
+Tue, 12 Oct 2021 13:40:44-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Tue, 12 Oct 2021 13:40:45-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据****失败:Message: 
+
+Tue, 12 Oct 2021 13:40:47-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Tue, 12 Oct 2021 13:40:47-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Tue, 12 Oct 2021 13:40:47-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:****
+Tue, 12 Oct 2021 13:41:17-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Tue, 12 Oct 2021 13:41:18-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据****失败:Message: 
+
+Tue, 12 Oct 2021 13:41:20-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Tue, 12 Oct 2021 13:41:20-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Tue, 12 Oct 2021 13:41:20-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:****
+Tue, 12 Oct 2021 13:41:50-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Tue, 12 Oct 2021 13:41:51-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据****失败:Message: 
+
+Tue, 12 Oct 2021 13:41:54-common.record_log-unit_test.py-[line:58]-INFO-[日志信息]: 关闭浏览器
+Tue, 12 Oct 2021 13:42:05-common.record_log-unit_test.py-[line:49]-INFO-[日志信息]: 打开浏览器:chrome
+Tue, 12 Oct 2021 13:42:17-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Tue, 12 Oct 2021 13:42:17-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Tue, 12 Oct 2021 13:42:17-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:18684720551
+Tue, 12 Oct 2021 13:42:47-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Tue, 12 Oct 2021 13:42:48-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据18684720551失败:Message: 
+
+Tue, 12 Oct 2021 13:42:50-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Tue, 12 Oct 2021 13:42:50-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Tue, 12 Oct 2021 13:42:50-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:***
+Tue, 12 Oct 2021 13:43:20-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Tue, 12 Oct 2021 13:43:21-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据***失败:Message: 
+
+Tue, 12 Oct 2021 13:43:23-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Tue, 12 Oct 2021 13:43:23-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Tue, 12 Oct 2021 13:43:23-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:18684720554
+Tue, 12 Oct 2021 13:43:53-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Tue, 12 Oct 2021 13:43:54-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据18684720554失败:Message: 
+
+Tue, 12 Oct 2021 13:43:55-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Tue, 12 Oct 2021 13:43:55-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Tue, 12 Oct 2021 13:43:55-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:
+Tue, 12 Oct 2021 13:52:13-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login
+Tue, 12 Oct 2021 13:52:44-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式kw定位元素失败:Message: 
+
+Tue, 12 Oct 2021 13:54:31-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://audit.k8s.superlucy.net/#/user/sign-in
+Tue, 12 Oct 2021 13:55:01-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式kw定位元素失败:Message: 
+
+Tue, 12 Oct 2021 14:05:13-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://audit.k8s.superlucy.net/#/user/sign-in
+Tue, 12 Oct 2021 14:35:19-common.record_log-base.py-[line:76]-ERROR-[日志信息]: 通过定位表达式//*[@id="loginName"]定位元素失败:Message: 
+
+Tue, 12 Oct 2021 14:45:57-common.record_log-base.py-[line:54]-INFO-[日志信息]: 加载测试地址:http://audit.k8s.superlucy.net/#/user/sign-in
+Tue, 12 Oct 2021 14:47:09-common.record_log-base.py-[line:54]-INFO-[日志信息]: 加载测试地址:http://audit.k8s.superlucy.net/#/user/sign-in
+Tue, 12 Oct 2021 14:47:39-common.record_log-base.py-[line:76]-ERROR-[日志信息]: 通过定位表达式//*[@id="loginName"]定位元素失败:Message: 
+
+Tue, 12 Oct 2021 14:52:03-common.record_log-base.py-[line:54]-INFO-[日志信息]: 加载测试地址:http://audit.k8s.superlucy.net/#/user/sign-in
+Tue, 12 Oct 2021 14:52:34-common.record_log-base.py-[line:76]-ERROR-[日志信息]: 通过定位表达式//*[@id="loginName"]定位元素失败:Message: 
+
+Tue, 12 Oct 2021 14:54:17-common.record_log-base.py-[line:54]-INFO-[日志信息]: 加载测试地址:https://www.baidu.com
+Tue, 12 Oct 2021 14:54:47-common.record_log-base.py-[line:97]-ERROR-[日志信息]: 通过定位表达式//a[@class="c-showurl"]定位一组元素失败:Message: 
+
+Tue, 12 Oct 2021 14:56:33-common.record_log-base.py-[line:54]-INFO-[日志信息]: 加载测试地址:https://www.baidu.com
+Tue, 12 Oct 2021 14:57:29-common.record_log-base.py-[line:54]-INFO-[日志信息]: 加载测试地址:http://audit.k8s.superlucy.net/#/user/sign-in
+Tue, 12 Oct 2021 14:58:45-common.record_log-base.py-[line:55]-INFO-[日志信息]: 加载测试地址:http://audit.k8s.superlucy.net/#/user/sign-in
+Tue, 12 Oct 2021 14:59:25-common.record_log-base.py-[line:77]-ERROR-[日志信息]: 通过定位表达式//button[@class="ant-btn ant-btn-primary定位元素失败:Message: 
+
+Tue, 12 Oct 2021 15:00:08-common.record_log-base.py-[line:55]-INFO-[日志信息]: 加载测试地址:http://audit.k8s.superlucy.net/#/user/sign-in
+Tue, 12 Oct 2021 15:00:48-common.record_log-base.py-[line:289]-ERROR-[日志信息]: 切换窗口失败或无新窗口被打开, 无需切换窗口
+Tue, 12 Oct 2021 15:01:53-common.record_log-base.py-[line:55]-INFO-[日志信息]: 加载测试地址:http://audit.k8s.superlucy.net/#/user/sign-in
+Tue, 12 Oct 2021 15:02:26-common.record_log-base.py-[line:55]-INFO-[日志信息]: 加载测试地址:http://audit.k8s.superlucy.net/#/user/sign-in
+Tue, 12 Oct 2021 15:04:34-common.record_log-base.py-[line:55]-INFO-[日志信息]: 加载测试地址:http://audit.k8s.superlucy.net/#/user/sign-in
+Tue, 12 Oct 2021 15:05:23-common.record_log-base.py-[line:55]-INFO-[日志信息]: 加载测试地址:http://audit.k8s.superlucy.net/#/user/sign-in
+Tue, 12 Oct 2021 15:06:00-common.record_log-base.py-[line:77]-ERROR-[日志信息]: 通过定位表达式//button[@class="ant-btn ant-btn-primary定位元素失败:Message: 
+
+Tue, 12 Oct 2021 15:07:17-common.record_log-base.py-[line:55]-INFO-[日志信息]: 加载测试地址:http://audit.k8s.superlucy.net/#/user/sign-in
+Tue, 12 Oct 2021 15:07:54-common.record_log-base.py-[line:77]-ERROR-[日志信息]: 通过定位表达式//a[@id="Header1_HeaderTitle"]定位元素失败:Message: 
+
+Tue, 12 Oct 2021 15:12:07-common.record_log-base.py-[line:55]-INFO-[日志信息]: 加载测试地址:http://audit.k8s.superlucy.net/#/user/sign-in
+Tue, 12 Oct 2021 15:13:58-common.record_log-base.py-[line:55]-INFO-[日志信息]: 加载测试地址:http://audit.k8s.superlucy.net/#/user/sign-in
+Tue, 12 Oct 2021 15:22:30-common.record_log-base.py-[line:55]-INFO-[日志信息]: 加载测试地址:http://audit.k8s.superlucy.net/#/user/sign-in
+Tue, 12 Oct 2021 15:24:08-common.record_log-base.py-[line:55]-INFO-[日志信息]: 加载测试地址:http://audit.k8s.superlucy.net/#/user/sign-in
+Tue, 12 Oct 2021 15:29:52-common.record_log-base.py-[line:55]-INFO-[日志信息]: 加载测试地址:http://audit.k8s.superlucy.net/#/user/sign-in
+Tue, 12 Oct 2021 15:32:11-common.record_log-base.py-[line:55]-INFO-[日志信息]: 加载测试地址:http://audit.k8s.superlucy.net/#/user/sign-in
+Tue, 12 Oct 2021 15:36:39-common.record_log-base.py-[line:55]-INFO-[日志信息]: 加载测试地址:http://audit.k8s.superlucy.net/#/user/sign-in
+Tue, 12 Oct 2021 15:39:24-common.record_log-base.py-[line:55]-INFO-[日志信息]: 加载测试地址:http://audit.k8s.superlucy.net/#/user/sign-in

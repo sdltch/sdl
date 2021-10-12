@@ -1,0 +1,37 @@
+Fri, 08 Oct 2021 13:40:14-common.record_log-unit_test.py-[line:35]-INFO-[日志信息]: 打开浏览器:chrome
+Fri, 08 Oct 2021 13:40:27-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Fri, 08 Oct 2021 13:40:27-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Fri, 08 Oct 2021 13:40:27-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:****
+Fri, 08 Oct 2021 13:40:57-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Fri, 08 Oct 2021 13:40:58-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据****失败:Message: 
+
+Fri, 08 Oct 2021 13:41:00-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Fri, 08 Oct 2021 13:41:00-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Fri, 08 Oct 2021 13:41:00-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:****
+Fri, 08 Oct 2021 13:41:31-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Fri, 08 Oct 2021 13:41:32-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据****失败:Message: 
+
+Fri, 08 Oct 2021 13:41:34-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Fri, 08 Oct 2021 13:41:34-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Fri, 08 Oct 2021 13:41:34-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:****
+Fri, 08 Oct 2021 13:45:56-common.record_log-unit_test.py-[line:47]-INFO-[日志信息]: 打开浏览器:chrome
+Fri, 08 Oct 2021 13:46:10-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Fri, 08 Oct 2021 13:46:10-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Fri, 08 Oct 2021 13:46:10-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:****
+Fri, 08 Oct 2021 13:46:40-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Fri, 08 Oct 2021 13:46:41-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据****失败:Message: 
+
+Fri, 08 Oct 2021 13:46:42-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Fri, 08 Oct 2021 13:46:42-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Fri, 08 Oct 2021 13:46:42-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:****
+Fri, 08 Oct 2021 13:47:13-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Fri, 08 Oct 2021 13:47:13-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据****失败:Message: 
+
+Fri, 08 Oct 2021 13:47:15-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Fri, 08 Oct 2021 13:47:15-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Fri, 08 Oct 2021 13:47:15-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:****
+Fri, 08 Oct 2021 13:51:27-common.record_log-run_test.py-[line:42]-INFO-[日志信息]: 所用用例执行完成, 并生成测试报告:D:\testdata\github\PythonUiAutoTest-master\report/2021-10-08-13-51-26.html

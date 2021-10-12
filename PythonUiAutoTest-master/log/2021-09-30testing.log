@@ -1,0 +1,121 @@
+Thu, 30 Sep 2021 15:06:22-common.record_log-unit_test.py-[line:35]-INFO-[日志信息]: 打开浏览器:chrome
+Thu, 30 Sep 2021 15:06:31-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Thu, 30 Sep 2021 15:06:31-common.record_log-loginPage.py-[line:31]-INFO-[日志信息]: 开始登录
+Thu, 30 Sep 2021 15:06:31-common.record_log-loginPage.py-[line:40]-INFO-[日志信息]: 输入用户名:18684720551
+Thu, 30 Sep 2021 15:07:01-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Thu, 30 Sep 2021 15:07:02-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据18684720551失败:Message: 
+
+Thu, 30 Sep 2021 15:07:03-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Thu, 30 Sep 2021 15:07:03-common.record_log-loginPage.py-[line:31]-INFO-[日志信息]: 开始登录
+Thu, 30 Sep 2021 15:07:03-common.record_log-loginPage.py-[line:40]-INFO-[日志信息]: 输入用户名:***
+Thu, 30 Sep 2021 15:07:33-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Thu, 30 Sep 2021 15:07:34-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据***失败:Message: 
+
+Thu, 30 Sep 2021 15:07:34-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Thu, 30 Sep 2021 15:07:34-common.record_log-loginPage.py-[line:31]-INFO-[日志信息]: 开始登录
+Thu, 30 Sep 2021 15:07:34-common.record_log-loginPage.py-[line:40]-INFO-[日志信息]: 输入用户名:18684720554
+Thu, 30 Sep 2021 15:08:05-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Thu, 30 Sep 2021 15:08:05-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据18684720554失败:Message: 
+
+Thu, 30 Sep 2021 15:08:06-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Thu, 30 Sep 2021 15:08:06-common.record_log-loginPage.py-[line:31]-INFO-[日志信息]: 开始登录
+Thu, 30 Sep 2021 15:08:06-common.record_log-loginPage.py-[line:40]-INFO-[日志信息]: 输入用户名:
+Thu, 30 Sep 2021 15:08:36-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Thu, 30 Sep 2021 15:08:37-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据失败:Message: 
+
+Thu, 30 Sep 2021 15:08:38-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Thu, 30 Sep 2021 15:08:38-common.record_log-loginPage.py-[line:31]-INFO-[日志信息]: 开始登录
+Thu, 30 Sep 2021 15:08:38-common.record_log-loginPage.py-[line:40]-INFO-[日志信息]: 输入用户名:****
+Thu, 30 Sep 2021 15:09:08-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Thu, 30 Sep 2021 15:09:09-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据****失败:Message: 
+
+Thu, 30 Sep 2021 15:09:10-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Thu, 30 Sep 2021 15:09:10-common.record_log-loginPage.py-[line:31]-INFO-[日志信息]: 开始登录
+Thu, 30 Sep 2021 15:09:10-common.record_log-loginPage.py-[line:40]-INFO-[日志信息]: 输入用户名:
+Thu, 30 Sep 2021 15:09:40-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Thu, 30 Sep 2021 15:09:41-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据失败:Message: 
+
+Thu, 30 Sep 2021 15:09:41-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Thu, 30 Sep 2021 15:09:41-common.record_log-loginPage.py-[line:31]-INFO-[日志信息]: 开始登录
+Thu, 30 Sep 2021 15:09:41-common.record_log-loginPage.py-[line:40]-INFO-[日志信息]: 输入用户名:12345678901
+Thu, 30 Sep 2021 15:26:04-common.record_log-unit_test.py-[line:35]-INFO-[日志信息]: 打开浏览器:chrome
+Thu, 30 Sep 2021 15:26:18-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Thu, 30 Sep 2021 15:26:18-common.record_log-loginPage.py-[line:31]-INFO-[日志信息]: 开始登录
+Thu, 30 Sep 2021 15:26:18-common.record_log-loginPage.py-[line:40]-INFO-[日志信息]: 输入用户名:18684720551
+Thu, 30 Sep 2021 15:26:48-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Thu, 30 Sep 2021 15:26:49-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据18684720551失败:Message: 
+
+Thu, 30 Sep 2021 15:26:50-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Thu, 30 Sep 2021 15:26:50-common.record_log-loginPage.py-[line:31]-INFO-[日志信息]: 开始登录
+Thu, 30 Sep 2021 15:26:50-common.record_log-loginPage.py-[line:40]-INFO-[日志信息]: 输入用户名:***
+Thu, 30 Sep 2021 15:27:21-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Thu, 30 Sep 2021 15:27:21-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据***失败:Message: 
+
+Thu, 30 Sep 2021 15:27:23-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Thu, 30 Sep 2021 15:27:23-common.record_log-loginPage.py-[line:31]-INFO-[日志信息]: 开始登录
+Thu, 30 Sep 2021 15:27:23-common.record_log-loginPage.py-[line:40]-INFO-[日志信息]: 输入用户名:18684720554
+Thu, 30 Sep 2021 15:27:53-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Thu, 30 Sep 2021 15:27:54-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据18684720554失败:Message: 
+
+Thu, 30 Sep 2021 15:27:55-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Thu, 30 Sep 2021 15:27:55-common.record_log-loginPage.py-[line:31]-INFO-[日志信息]: 开始登录
+Thu, 30 Sep 2021 15:27:55-common.record_log-loginPage.py-[line:40]-INFO-[日志信息]: 输入用户名:
+Thu, 30 Sep 2021 15:31:11-common.record_log-unit_test.py-[line:35]-INFO-[日志信息]: 打开浏览器:chrome
+Thu, 30 Sep 2021 15:31:25-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Thu, 30 Sep 2021 15:31:25-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Thu, 30 Sep 2021 15:31:25-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:18684720551
+Thu, 30 Sep 2021 15:31:55-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Thu, 30 Sep 2021 15:31:56-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据18684720551失败:Message: 
+
+Thu, 30 Sep 2021 15:31:57-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Thu, 30 Sep 2021 15:31:57-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Thu, 30 Sep 2021 15:31:57-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:***
+Thu, 30 Sep 2021 15:42:01-common.record_log-unit_test.py-[line:35]-INFO-[日志信息]: 打开浏览器:chrome
+Thu, 30 Sep 2021 15:42:15-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Thu, 30 Sep 2021 15:42:15-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Thu, 30 Sep 2021 15:42:15-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:18684720551
+Thu, 30 Sep 2021 15:42:45-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Thu, 30 Sep 2021 15:42:46-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据18684720551失败:Message: 
+
+Thu, 30 Sep 2021 15:42:47-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Thu, 30 Sep 2021 15:42:47-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Thu, 30 Sep 2021 15:42:47-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:***
+Thu, 30 Sep 2021 15:43:18-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Thu, 30 Sep 2021 15:43:18-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据***失败:Message: 
+
+Thu, 30 Sep 2021 15:43:20-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Thu, 30 Sep 2021 15:43:20-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Thu, 30 Sep 2021 15:43:20-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:18684720554
+Thu, 30 Sep 2021 15:43:50-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Thu, 30 Sep 2021 15:43:51-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据18684720554失败:Message: 
+
+Thu, 30 Sep 2021 15:43:52-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Thu, 30 Sep 2021 15:43:52-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Thu, 30 Sep 2021 15:43:52-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:
+Thu, 30 Sep 2021 15:44:22-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Thu, 30 Sep 2021 15:44:23-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据失败:Message: 
+
+Thu, 30 Sep 2021 15:44:24-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Thu, 30 Sep 2021 15:44:24-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Thu, 30 Sep 2021 15:44:24-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:****
+Thu, 30 Sep 2021 15:44:54-common.record_log-base.py-[line:74]-ERROR-[日志信息]: 通过定位表达式//input[@name="phone"]定位元素失败:Message: 
+
+Thu, 30 Sep 2021 15:44:54-common.record_log-base.py-[line:209]-ERROR-[日志信息]: 输入框://input[@name="phone"], 输入数据****失败:Message: 
+
+Thu, 30 Sep 2021 15:44:55-common.record_log-base.py-[line:52]-INFO-[日志信息]: 加载测试地址:http://synergy.k8s.superlucy.net/user/login1
+Thu, 30 Sep 2021 15:44:55-common.record_log-loginPage.py-[line:32]-INFO-[日志信息]: 开始登录
+Thu, 30 Sep 2021 15:44:55-common.record_log-loginPage.py-[line:41]-INFO-[日志信息]: 输入用户名:
