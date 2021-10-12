@@ -296,7 +296,6 @@ class Base(object):
 
 if __name__ == '__main__':
     # d = webdriver.Firefox()
-
     # chrome浏览器V78及以上版本解决自动监控软件
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_experimental_option('useAutomationExtension', False)
